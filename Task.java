@@ -2,9 +2,9 @@ public class Task {
   private static String content;
   private static boolean complete;
 
-  public Task(String initalizedContent, boolean initializedComplete) {
+  public Task(String initalizedContent) {
     content = initalizedContent;
-    complete = initializedComplete;
+    complete = false;
   }
 
   // Getters
@@ -21,7 +21,7 @@ public class Task {
     content = newContent;
   }
 
-  public void setComplete(String newComplete) {
+  public void setComplete(boolean newComplete) {
     complete = newComplete;
   }
 
