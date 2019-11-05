@@ -21,7 +21,7 @@ public class Task {
     content = newContent;
   }
 
-  public void setComplete(String newComplete) {
+  public void setComplete(boolean newComplete) {
     complete = newComplete;
   }
 
